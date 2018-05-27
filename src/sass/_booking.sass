@@ -1,0 +1,182 @@
+.select
+	padding-bottom: 39px
+	display: flex
+	align-items: flex-end
+	width: 100%
+	&-whence
+		position: relative
+		margin-right: 30px
+		width: 50%
+		&__help
+			position: absolute
+			width: 260px
+			padding: 0 15px
+			background-color: #68c000
+			color: #fff
+			border-radius: 10px
+			opacity: 0.5
+			&-o
+				display: none
+	label
+		padding-bottom: 15px
+		margin-bottom: 0
+	&-where
+		width: 50%
+		&__help
+			display: none
+
+.slct
+	display: block
+	border-radius: 5px
+	background-color: #fff
+	width: 100%
+	padding: 18px 15px 20px 25px
+	color: #282f33
+	font-size: 18px
+	font-weight: 400
+	max-height: 60px
+	box-shadow: 0 0 24px #d6e7f1
+
+	overflow: hidden
+	white-space:nowrap
+	text-overflow: ellipsis
+	-o-text-overflow: ellipsis	
+	&:hover
+		text-decoration: none
+		color: #68c000
+	a
+		text-decoration: none
+		color: #282f33
+.slct .active 
+	border-radius: 5px 5px 0 0
+	border-bottom: none
+
+.drop 
+	margin: 0
+	padding: 0
+	width: 46%
+	border-top: none
+	display: none
+	position: absolute
+	background: #fff
+	box-shadow: 0px 5px 24px #d6e7f1 
+	font-size: 18px
+.drop li 
+	list-style: none
+	cursor: pointer
+	display: block
+	color: #444
+	padding: 15px 15px 15px 25px
+	background-position: 10px -119px
+	a
+		color: #282f33
+
+.drop li a:hover 
+	text-decoration: none
+	color: #68c000
+.booking
+	padding-top: 71px
+	&-date
+		padding-bottom: 40px
+		label
+			padding-bottom: 15px
+			margin-bottom: 0
+		&__help
+			display: none
+	&-cost
+		color: #282f33
+		padding-bottom: 39px
+		&__text
+			padding-bottom: 20px
+			font-size: 15px
+			font-weight: 300
+		&__cost
+			font-size: 27px
+			font-weight: 400
+			line-height: 29px
+	&-footer
+		display: flex
+		&__button
+			width: 48%
+			button
+				width: 100%
+				height: 70px
+				color: #f7fafd
+				font-size: 18px
+				font-weight: 400
+				background-color: #68c000
+				box-shadow: 0 0 24px rgba(214, 231, 241, 0.41)
+				border-radius: 6px
+				border-width: 0px
+				outline: none
+				&:hover
+					box-shadow: 0 17px 24px rgba(93, 171, 0, 0.29)
+					background-color: #5dab00
+		&__text
+			width: 50%
+			margin: auto 0
+			padding-left: 28px
+			color: #282f33
+			font-size: 15px
+			font-weight: 300
+.tcal
+	width: 48%
+	height: 60px
+	background-color: #fff
+	border: none
+	box-shadow: 0 0 24px #d6e7f1
+	border-radius: 5px
+	padding-left: 24px
+	outline: none
+.overlay
+	position: fixed
+	display: none
+	width: 100%
+	height: 100%
+	left: 0
+	top: 0
+	background-color: #000
+	z-index: 10
+	.popup
+		width: 50%
+		height: 22%
+		top: 30%
+		left: 50%
+		margin-left: -25%
+		position: fixed
+		color: #fff
+		border-radius: 5px
+		text-align: center
+		&-title
+			padding: 23px 0
+			background-color: #98CCE8
+			color: #ffffff
+			font-size: 21px
+			font-weight: 500
+			line-height: 22px
+			text-transform: uppercase
+			text-align: center
+		&-text
+			text-align: center
+			padding-top: 20px
+			font-size: 20px
+
+		&-close
+			position: absolute
+			right: -30px
+			top: -40px
+			font-size: 35px
+			font-weight: 300
+			cursor: pointer
+		&__button
+			width: 180px
+			height: 56px
+			margin-top: 30px 
+			font-size: 20px
+			font-weight: 500
+			line-height: 22px
+			cursor: pointer		
+			border-radius: 5px
+			background-color: #5dab00
+			color: #fff
+			border: none
